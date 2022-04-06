@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bitebank1';
+
+  transferir($event: any){
+    console.log($event)
+  }
 }
