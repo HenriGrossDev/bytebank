@@ -1,3 +1,4 @@
+import { TransferenciaService } from './../services/transferencia.service';
 import { Component, Output, EventEmitter } from "@angular/core";
 
 
@@ -14,6 +15,7 @@ export class NovaTransferenciaComponent{
 
     valor: number = 10;
     destino: number = 222;
+
 
 
     transferir(): void{
